@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+	<!--navigation section-->
+	<nav class="navbar">
+		<div class="container">
+			<a href="#"><h3>Amyy</h3></a>
+			<ul class="menu">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>			
+			</ul>	
+		</div>
+		<i class="fas fa-bars" id="menubar"></i>				
+	</nav>
+
+	<!--home section-->
+	<section class="home" id="home">
+		<div class="container" id="blur">
+			<div class="socials">
+				<a href="https://twitter.com/AlexStephanie10" target="_blank"><i class="uil uil-twitter"></i></a>
+				<a href="https://dribbble.com/Stephnny" target="_blank"><i class="uil uil-dribbble"></i></a>
+				<a href="https://github.com/TeckLedi" target="_blank"><i class="uil uil-github"></i></a>
+			</div>
+
+			<div class="home-content">
+				<h1>UI/UX & Frontend Developer</h1>
+				<h3>Hi, I'm Stephanie Alex-Okenwa</h3>
+				<p>I design morden, reponsive and user friendly websites. I've created stunning websites for both business and personal use while working remotely and I enjoy making things that are not only beautiful but also functional and accessible. </p>
+				<a href="#" class="btn btn-primary" onclick="toggle()">Let's chat <i class="uil uil-message"></i></a>
+			</div>
+			
+			<div class="profile-area">
+				<div class="outer-circle">
+					<span class="material-icons-sharp">design_services</span>
+					<span class="material-icons-sharp">code</span>
+					<span class="material-icons-sharp">code_off</span>
+					<span class="material-icons-sharp">design_services</span>
+				</div>
+				<div class="inner-circle">
+					<img src="image/profile1.jpg">
+			    </div>
+			</div>	
+		</div>
+		<script type="text/javascript">
+			function toggle(){
+				var blur = document.getElementById('blur');
+				blur.classList.toggle('active'); 
+				var popup = document.getElementById('popup');
+				popup.classList.toggle('active');
+			}
+		</script>
+
+		<div id="popup">
+			<h2>Social Icons</h2>
+			<div class="social-icon">
+				<a href="https://twitter.com/AlexStephanie10" target="_blank"><i class="uil uil-twitter"></i></a>
+				<a href="https://dribbble.com/Stephnny" target="_blank"><i class="uil uil-dribbble"></i></a>
+				<a href="https://github.com/TeckLedi" target="_blank"><i class="uil uil-github"></i></a>
+				<a href="mailto:deeptruth247@gmail.com" target="_blank"><i class="uil uil-envelope"></i></i></a>
+			</div>
+
+			<a href="#" class="btn btn-primary" onclick="toggle()">Close</a>
+		</div>
+	</section>
+
+	<!--about section-->
+	<section class="about" id="about">
+		<h1>About Me</h1>
+		<div class="container">
+			<div class="image">
+				<img src="image/aboutprofile3.jpg">
+			</div>
+			<div class="about-content">
+				<p>Hello there, My name is Stephanie, and I'm a software engineering graduate. I design morden, reponsive and user friendly websites. My interest in web design was born out of curiousity to know how web applications are designed. From self projects, I have created robust, responsive, functional and user-friendly websites as seen in my work section. I've created stunning websites for both business and personal use while working remotely with start-ups and partnering with creative individuals.</p>
+			
+				<p>I also have a genuine interest in UI/UX design. I enjoy making things that are not only beautiful but also functional and accessible. Since learning never stops, I'm still honing my skills so that I can provide the best service possible.
+				</p>
+
+				<a href="https://www.doyoubuzz.com/alex-stephanie" download class="btn btn-primary">View CV <i class="uil uil-eye"></i> </a>
+			</div>
+		</div>
+	</section>
+
+	<!--skills section-->
+	<section class="skills" id="skills">
+		<h1 class="section-titile">Skills</h1>
+		
+		<div class="container">
+			<div class="contents">
+				<!--skill one-->
+				<div class="skills-content skills-open">
+					<div class="skills-header">
+						<i class="uil uil-brackets-curly skills-icon"></i>
+
+						<div>
+							<h3 class="skills-title">Frontend developer</h3>
+						</div>
+
+						<i class="uil uil-angle-down skills-arrow"></i>
+					</div>
+
+					<div class="skills-list grid">
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">HTML</h4>
+								<span class="skills-number">95%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-html"></span>
+							</div>
+						</div>
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">CSS</h4>
+								<span class="skills-number">89%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-css"></span>
+							</div>
+						</div>
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">Bootstrap</h4>
+								<span class="skills-number">62%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-bootstrap"></span>
+							</div>
+						</div>
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">Javascript</h4>
+								<span class="skills-number">70%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-js"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--skill two-->
+				<div class="skills-content skills-close">
+					<div class="skills-header">
+						<i class="uil uil-swatchbook skills-icon"></i>
+						<div>
+							<h3 class="skills-title">UI/UX designer</h3>
+						</div>
+
+						<i class="uil uil-angle-down skills-arrow"></i>
+					</div>
+
+					<div class="skills-list grid">
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">Figma</h4>
+								<span class="skills-number">85%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-figma"></span>
+							</div>
+						</div>
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">Adobe Illustartor</h4>
+								<span class="skills-number">61%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-ai"></span>
+							</div>
+						</div>
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">Sketch</h4>
+								<span class="skills-number">67%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-sketch"></span>
+							</div>
+						</div>
+						<div class="skills-data">
+							<div class="skills-titles">
+								<h4 class="skills-name">Adobe Xd</h4>
+								<span class="skills-number">71%</span>
+							</div>
+							<div class="skills-bar">
+								<span class="skills-perentage skills-xd"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>			
+		</div>
+	</section>
+
+	<!--Portfolio section-->
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<h1>Projects</h1>
+			<h4>Here are some of my projects!</h4>
+			<div class="projects">
+				<div class="project">
+					<div class="thumbnail">
+					   <img src="image/project1.png">
+				    </div>
+				    <h2>Complete Responsive E-commerce Website</h2>
+				    <p>A Complete Responsive E-commerce Website that showcases black fashion in full. All webpages are displayed with proper dimensions across a wide variety of devices. This site was built using HTML, CSS and Javascipt.</p>
+				    <div class="action">
+					   <a href="https://teckledi.github.io/afroFashion/" target="_blank">Live Demo</a>
+				    </div>
+				</div>
+
+				<div class="project">
+					<div class="thumbnail">
+					   <img src="image/portfolio.jpg">
+				    </div>
+					<h2>Portfolio Website</h2>
+					<p>A responsive porfolio website design that displays your skills in the best possible manner. This site was built using HTML, CSS and Javascipt.</p>
+					<div class="action">
+						<a href="https://teckledi.github.io/stephaniealex/" target="_blank">Live Demo</a>
+					</div>
+				</div>
+
+				<div class="project">
+					<div class="thumbnail">
+					<img src="image/animal2.jpg">
+				    </div>
+					<h2>Animal donation Website</h2>
+					<p>This an animal donation website where users join in th mission to donate to different animal cause. This site was built using HTML, CSS and Javascipt.
+					</p>
+					<div class="action">
+						<a href="https://teckledi.github.io/AnimalHub/" target="_blank">Live Demo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--footer section-->
+	<footer id="footera">
+		<div class="container">
+			<a href="#"><h3>Amyy</h3></a>
+			<ul class="menu">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>			
+			</ul>
+
+			<div class="socials">
+				<a href="https://twitter.com/AlexStephanie10" target="_blank"><i class="uil uil-twitter"></i></a>
+				<a href="https://dribbble.com/Stephnny" target="_blank"><i class="uil uil-dribbble"></i></a>
+				<a href="https://github.com/TeckLedi" target="_blank"><i class="uil uil-github"></i></a>
+			</div>	
+		</div>
+		<div class="copyright">
+			Copyright &copy; Amyy Stephanie
+		</div>
+	</footer>
+
+	<script src="main.js"></script>
+</body>
+</html>
