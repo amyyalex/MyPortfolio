@@ -479,6 +479,10 @@ section.skills .container{
 	width: 62%;
 }
 
+.skills-react {
+	width: 50%;
+}
+
 .skills-figma {
 	width: 85%;
 }
